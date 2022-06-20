@@ -1,7 +1,14 @@
 @charset 'UTF-8';
 
 @import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
 @font-face {
     font-family: 'Macondo';
     src: url(./fontes/Macondo-Regular.ttf)format('onpentype');
+}
+:root{
+    --fonte-subtitulos: 'Macondo', cursive;
+}
+*{
+    font-family: var(--fonte-subtitulos);
 }
