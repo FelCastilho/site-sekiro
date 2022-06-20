@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-be">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registre-se</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/faviconregistro.ico" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+body{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    background-color: #28104E;
+}
+.titulo{
+    text-align: center;
+}
+.container{
+    margin: auto;
+    padding: 5px;
+    width: 20em;
+    height: 60vh;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    border: 3px solid rgb(65, 77, 189);
+}
+
+.input-box{
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+.input-box input{
+    padding: 5px;
+    margin: 3px;
+    background-color: white;
+    text-align: center;
+}
+.input-box > label{
+    margin: auto;
+    padding: 4px;
+
+}
+button{
+    display: flex;
+    margin: auto;
+    padding: 10px;
+    text-decoration: none;
+}
+button > a{
+    text-decoration: none;
+} 
+button::after {
+    background-color: black;
+    padding: 3px ;
+    transition-duration: 2px;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="imagem">
+
+        </div>
+        <div class="titulo"><h1>Registre-se aqui!</h1></div>
+        <div class="input-group">
+            <div class="input-box">
+                <label for="firstname">Primeiro Nome</label>
+                <input type="text" name="firstname" id="firstname" required placeholder="Digite seu primeiro nome">
+            </div>
+            <div class="input-box">
+                <label for="lastname">Sobrenome</label>
+                <input type="text" name="lastname" id="lastname" required placeholder="Digite seu sobrenome">
+            </div>
+            <div class="input-box">
+                <label for="name">Email</label>
+                <input type="email" name="email" id="email" required placeholder="exemplo@gmail.com">
+            </div>
+            <div class="input-box">
+                <label for="password">Senha</label>
+                <input type="password" name="password" id="password" required placeholder="Digite sua senha">
+            </div>
+            <div class="input-box">
+                <label for="confirmpassword">Confirme sua senha</label>
+                <input type="password" name="confirmpassword" id="confirmpassword" required placeholder="Confirme sua senha">
+            </div>
+        </div>
+        <div class="button"><button><a href="index.html">Registrar-se</a></button></div>
+    </div>
+</body>
+</html>
