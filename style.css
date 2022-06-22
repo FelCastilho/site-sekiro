@@ -2,10 +2,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 :root{
     --fonte-subtitulos: 'Macondo', cursive;
     --fonte-texto: 'Montserrat', sans-serif;
+    --font-nav: 'Bebas Neue', cursive;
 }
 *{
     margin: 0;
@@ -27,6 +29,8 @@ nav > a{
     text-decoration: none;
     color: white;
     padding: 10px;
+    font-weight: bolder;
+    font-family: ;
 
 }
 a:hover{
@@ -37,17 +41,42 @@ a:hover{
 
     /*Animação na barra de navegação*/
 }
-
-article{
-
+body{
+    background-color: lightslategrey;
+}
+main{
+    background-color:white;
+    width: 1200px;
+    margin: auto;
+}
+article > h1 {
+    text-align: center;
+    padding: 15px;
+}
+article > h2{
+    text-align: center;
+    padding: 20px;
 }
 article > p {
+    padding: 10px;
     display: flex;
     text-align: justify;
-    max-width: 1200px;
+    max-width: 1000px;
     min-width: 320px;
     font-family: var(--fonte-texto);
     margin: auto;
+
+}
+img{
+    display: flex;
+    margin: auto;
+    padding: 20px;
+}
+iframe{
+    padding: 20px;
+    display: flex;
+    margin: auto;
+    background-color: lightslategray;
 
 }
 footer{
