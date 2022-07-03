@@ -41,9 +41,6 @@ nav a:hover{
 
     /*Animação na barra de navegação*/
 }
-body{
-    background-color: lightslategrey;
-}
 main{
     background-color:white;
     margin: auto;
@@ -61,7 +58,7 @@ article > p {
     padding: 2em;
     text-align: justify;
     min-width: 320px;
-    max-width: 1200px;
+    max-width: 1000px;
     font-family: var(--fonte-texto);
     margin: auto;
 
