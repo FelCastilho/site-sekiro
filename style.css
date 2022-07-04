@@ -64,7 +64,7 @@ article > p {
     padding-top: 2em;
     padding-bottom: 2em;
     text-align: justify;
-    min-width: 320px;
+    min-width: 300px;
     max-width: 1000px;
     font-family: var(--fonte-texto);
     margin: auto;
