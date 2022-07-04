@@ -97,7 +97,18 @@ aside{
     margin-top: 30px;
     color: white;
     border-radius: 20px;
+    box-shadow: 3px 3px 3px black;
  
+}
+aside > h1{
+    text-align: center;
+    padding: 2em;
+    font-family: var(--fonte-texto);
+}
+aside > h2{
+    text-align: center;
+    padding: 2em;
+    font-family: var(--fonte-texto);
 }
 aside > h3{
     text-align: center;
@@ -114,25 +125,110 @@ aside  a{
     font-family: var(--fonte-texto);
     padding-bottom: 50px;
     display: flex;
-    margin: auto;
+    margin-left: 13.5em;
     align-items: center;
-
     /*Box com itens para comprar o jogo*/
 }
 
-.container{
+/*Sessão com animação em cima do link de compras*/
+.link-ps{
+    cursor: pointer;
+    padding: 5px;
+    background-image: linear-gradient(#306cee, #30c5ee);
+    background-repeat: no-repeat;
+    background-size: 0 10%;
+    background-position-x: right;
+    border-radius: 5px;
+    transition: background-size 500ms;
+}
+.link-ps:hover{
+    background-size: 100% 100%;
+    background-position-x: left;
+}
+.link-steam{
+    cursor: pointer;
+    padding: 5px;
+    background-image: linear-gradient(rgb(78, 78, 78) , grey);
+    background-repeat: no-repeat;
+    background-size: 0 10%;
+    background-position-x: right;
+    border-radius: 5px;
+    transition: background-size 500ms;
+}
+.link-steam:hover{
+    background-size: 100% 100%;
+    background-position-x: left;
+}
+.link-xbox{
+    cursor: pointer;
+    padding: 5px;
+    background-image: linear-gradient(rgb(11, 63, 11) , green);
+    background-repeat: no-repeat;
+    background-size: 0 10%;
+    background-position-x: right;
+    border-radius: 5px;
+    transition: background-size 500ms;
+}
+.link-xbox:hover{
+    background-size: 100% 100%;
+    background-position-x: left;
+}
+.container-perfil{
     display: flex;
     align-items: center;
     font-family: var(--fonte-texto);
+    margin-top: 10px;
     margin-left: 20px;
     margin-bottom: 20px;
     /*Minha foto com descrição*/
 }
-
+/*Sessão com animação das redes sociais*/
+.link-github{
+    cursor: pointer;
+    padding: 5px;
+    background-image: linear-gradient(rgb(78, 78, 78) , grey);
+    background-repeat: no-repeat;
+    background-size: 0 10%;
+    background-position-x: right;
+    border-radius: 5px;
+    transition: background-size 500ms;
+}
+.link-github:hover{
+    background-size: 100% 100%;
+    background-position-x: left;
+}
+.link-instagram{
+    cursor: pointer;
+    padding: 6px;
+    background-image: linear-gradient(#515bd4, #8134AF, #DD2a7d);
+    background-repeat: no-repeat;
+    background-size: 0 10%;
+    background-position-x: right;
+    border-radius: 5px;
+    transition: background-size 500ms;
+}
+.link-instagram:hover{
+    background-size: 100% 100%;
+    background-position-x: left;
+}
+.link-youtube{
+    cursor: pointer;
+    padding: 5px;
+    background-image: linear-gradient(rgb(255, 0, 0), rgba(255, 255, 255, 0.651));
+    background-repeat: no-repeat;
+    background-size: 0 10%;
+    background-position-x: right;
+    border-radius: 5px;
+    transition: background-size 500ms;
+}
+.link-youtube:hover{
+    background-size: 100% 100%;
+    background-position-x: left;
+}
 footer{
     background-color: black;
     color: white;
-    padding: 15px;
+    padding: 13px;
     text-align: center;
     font-family: var(--fonte-subtitulos);
     font-size: 20px;
