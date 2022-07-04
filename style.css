@@ -46,6 +46,11 @@ main{
     background-color:white;
     margin: auto;
 }
+article{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+}
 article > h1 {
     text-align: center;
     padding-top: 30px;
@@ -64,8 +69,7 @@ article > p {
     padding-top: 2em;
     padding-bottom: 2em;
     text-align: justify;
-    min-width: 300px;
-    max-width: 1000px;
+
     font-family: var(--fonte-texto);
     margin: auto;
 
